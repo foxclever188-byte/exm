@@ -1,4 +1,4 @@
-I understand. Let's make the README much cleaner by using bullet points so anyone can read it at a glance.
+
 
 Quiz Score Tracker
 
