@@ -1,34 +1,41 @@
+I understand. Let's make the README much cleaner by using bullet points so anyone can read it at a glance.
+
 Quiz Score Tracker
-This project is a simple tool to help teachers or students track quiz results. It calculates the total points, the highest and lowest scores, and the average marks.
-
-How it Works
 
 
-The project is split into two parts to keep the math separate from the testing.
+This project is a simple, reliable tool for tracking student quiz results. It is designed to be fast, memory-efficient, and easy to test.
 
-exm.py: This is the main program. It contains the logic for updating scores and asks the user to type in the results.
-
-test.py: This is the inspector. It uses the unittest module to make sure the math in the main program is 100% correct.
-
-How to Use
+Project Features
 
 
-Run exm.py to enter student scores one by one.
+Automatic Totals: Calculates total points as you enter them.
 
-Type 'done' when you are finished to see the final summary.
+Best & Worst Scores: Instantly finds the highest and lowest marks.
 
-Run test.py at any time to verify that the scoring logic is working perfectly.
+Average Calculation: Determines the mean score for the entire class.
 
-Key Features
+No Lists: Saves memory by updating numbers instead of storing a long list.
+
+Whole Numbers: Uses simple integers for a cleaner look.
+
+How to Run the Project
 
 
-Whole Number Logic: Uses int for clean, easy-to-read scores.
+Step 1: Open exm.py to start the scoring.
 
-Automated Testing: Uses unittest to prevent math errors.
+Step 2: Type each student's score and press Enter.
 
-Memory Efficient: Does not store a long list of scores; it updates totals instantly.
+Step 3: Type 'done' when everyone is finished.
+
+Step 4: Run test.py to check the "Inspector" and ensure the math is perfect.
+
+File Structure
+
+
+exm.py: Contains the Math Machine and the User Input section.
+
+test.py: Contains the Unit Tests to verify the math is 100% correct.
 
 Created By
-
 
 Aritraw Ghosal Arko
